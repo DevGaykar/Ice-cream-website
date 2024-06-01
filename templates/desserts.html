@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %} Deserts {% endblock title %}
+
+{% block extra_head %} 
+ <link rel="stylesheet" href="/static/flavours.css"/>
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <h1 class="section-title">Desserts</h1>
+
+    <div class="flavour">
+        <img src="/static/image/Ice Cream Sundaes.jpg" alt="Ice Cream Sundaes">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Ice Cream Sundaes</h2>
+            <p class="flavour-description">Classic sundaes topped with a variety of delicious toppings like nuts, cherries, and whipped cream.</p>
+            <div class="user-reviews">
+                <div class="review">"Ice Cream Sundaes are a family favourite. The toppings are always generous."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Ice Cream Cakes.jpg" alt="Ice Cream Cakes">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Ice Cream Cakes</h2>
+            <p class="flavour-description">Ideal for celebrations, with layers of cake and ice cream for a delightful treat.</p>
+            <div class="user-reviews">
+                <div class="review">"Ice Cream Cakes are a hit at every party. Love the combination of cake and ice cream."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Milkshakes.jpg" alt="Milkshakes">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Milkshakes</h2>
+            <p class="flavour-description"> Thick and creamy milkshakes in various flavours, topped with whipped cream and a cherry.</p>
+            <div class="user-reviews">
+                <div class="review">"Milkshakes are thick and delicious. Perfect for a treat anytime."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Affogato.jpg" alt="Affogato">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Affogato</h2>
+            <p class="flavour-description">A sophisticated dessert featuring a shot of espresso poured over a scoop of vanilla ice cream.</p>
+            <div class="user-reviews">
+                <div class="review">"Affogato is a sophisticated dessert. The espresso and ice cream combo is divine."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/icecream sandwiche.jpg" alt="Ice Cream Sandwiches">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Ice Cream Sandwiches</h2>
+            <p class="flavour-description"> Creamy ice cream nestled between two soft cookies for a nostalgic delight.</p>
+            <div class="user-reviews">
+                <div class="review">"Ice Cream Sandwiches are perfect for on-the-go. The cookies are soft and the ice cream is creamy."</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock body %}

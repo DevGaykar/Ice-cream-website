@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %} Fruit n Nuts {% endblock title %}
+
+{% block extra_head %} 
+ <link rel="stylesheet" href="/static/flavours.css"/>
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <h1 class="section-title">Fruit N Nuts</h1>
+
+    <div class="flavour">
+        <img src="/static/image/Mango Almond.jpg" alt="Mango Almond">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Mango Almond</h2>
+            <p class="flavour-description"> Creamy mango ice cream blended with crunchy toasted almonds for a tropical delight. </p>
+            <div class="user-reviews">
+                <div class="review"> "The Mango Almond is a tropical dream. The almonds add a nice crunch!"</div>
+            </div>    
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Berry Medley.jpg" alt="Berry Medley ">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Berry Medley</h2>
+            <p class="flavour-description">A luscious blend of strawberries, blueberries, and raspberries, bursting with natural berry flavours.</p>
+            <div class="user-reviews">
+                <div class="review">"Berry Medley is bursting with berry flavour. It's like summer in a scoop." </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Pistachio.jpg" alt="Pistachio">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Pistachio</h2>
+            <p class="flavour-description">Enjoy the subtle and nutty taste of pistachio ice cream, enriched with real pistachio pieces.</p>
+            <div class="user-reviews">
+                <div class="review">"Pistachio is my all-time favourite. The real pistachios add so much depth."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Apple Walnut.jpg" alt="Apple Walnut">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Apple Walnut  </h2>
+            <p class="flavour-description">Savour the cinnamon-spiced apple ice cream paired with crunchy walnut bits for a delightful treat.</p>
+            <div class="user-reviews">
+                <div class="review">"Apple Walnut has that perfect blend of spice and sweetness. The walnuts add a great texture."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Tropical Paradise ice cream.jpg" alt="Tropical Paradise">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Tropical Paradise</h2>
+            <p class="flavour-description">Transport yourself to an island getaway with the mix of pineapple, coconut, and macadamia nuts.</p>
+            <div class="user-reviews">
+                <div class="review">"Tropical Paradise is perfect for a hot day. The mix of pineapple and coconut is refreshing."</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock body %}

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %} Premium Flavours {% endblock title %}
+
+{% block extra_head %} 
+ <link rel="stylesheet" href="/static/flavours.css"/>
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <h1 class="section-title">Premium Flavours</h1>
+
+    <div class="flavour">
+        <img src="/static/image/Belgian Chocolate.jpg" alt="Belgian Chocolate">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Belgian Chocolate</h2>
+            <p class="flavour-description">Made with premium Belgian chocolate, this ice cream offers a rich and velvety texture. </p>
+            <div class="user-reviews"> 
+                <div class="review">"Belgian Chocolate is pure decadence. It's the best chocolate ice cream I've ever had."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Hazelnut Praline" alt="Hazelnut Praline">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Hazelnut Praline</h2>
+            <p class="flavour-description">Rich hazelnut ice cream swirled with crunchy praline for a decadent treat.</p>
+            <div class="user-reviews">
+                <div class="review">"Hazelnut Praline is a game-changer. The praline adds a wonderful crunch."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Tiramisu.jpg" alt="Tiramisu">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Tiramisu</h2>
+            <p class="flavour-description"> Inspired by the classic Italian dessert, featuring layers of mascarpone and coffee.</p>
+            <div class="user-reviews">
+                <div class="review">"Tiramisu is like having a gourmet dessert in a cone. Absolutely delicious."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Salted Caramel.jpg" alt="Salted Caramel">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Salted Caramel</h2>
+            <p class="flavour-description"> Creamy caramel ice cream accented with a hint of sea salt to elevate the flavour.</p>
+            <div class="user-reviews">
+                <div class="review">"Salted Caramel hits all the right notes. The salt enhances the caramel beautifully."</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+{% endblock body %}

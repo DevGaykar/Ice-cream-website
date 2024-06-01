@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #4A90E2;
+    margin-top: 20px;
+}
+p {
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 0 20px;
+}
+.section {
+    position: relative;
+    color: white;
+    padding: 60px 20px;
+    background-size: cover;
+    background-position: center;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 40%;
+    text-align: left;
+    margin: 20px;
+}
+.section:nth-of-type(even) .text-overlay {
+    left: auto;
+    right: 0;
+}
+@media (max-width: 768px) {
+    .text-overlay {
+        max-width: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .section:nth-of-type(even) .text-overlay {
+        right: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

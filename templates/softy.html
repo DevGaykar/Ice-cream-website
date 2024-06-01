@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %} Softy's {% endblock title %}
+
+{% block extra_head %} 
+ <link rel="stylesheet" href="/static/flavours.css"/>
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <h1 class="section-title">Softy's</h1>
+
+    <div class="flavour">
+        <img src="/static/image/Vanilla Softy" alt="Vanilla Softy">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Vanilla Softy</h2>
+            <p class="flavour-description">Classic and creamy vanilla, perfect on its own or with your favourite toppings.</p>
+            <div class="user-reviews">
+                <div class="review">"Vanilla Softy is my go-to. It's so creamy and perfect with sprinkles."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Chocolate Swirl.jpg" alt="Chocolate Swirl">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Chocolate Swirl</h2>
+            <p class="flavour-description">A delightful mix of vanilla and chocolate soft-serve, offering the best of both worlds.</p>
+            <div class="user-reviews">
+                <div class="review">"Chocolate Swirl is the best of both worlds. Love the mix of vanilla and chocolate."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Mixed Berry.jpg" alt="Mixed Berry">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Mixed Berry</h2>
+            <p class="flavour-description"> A fruity blend of berry flavours in a smooth soft-serve form.</p>
+            <div class="user-reviews">
+                <div class="review">"Mixed Berry Softy is so refreshing. Perfect for a hot day."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Coffee Softy.jpg" alt="Coffee Softy">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Coffee Softy</h2>
+            <p class="flavour-description">Smooth coffee flavour that’s perfect for a quick pick-me-up.</p>
+            <div class="user-reviews">
+                <div class="review">"Coffee Softy is my afternoon treat. Smooth and satisfying."</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock body %}

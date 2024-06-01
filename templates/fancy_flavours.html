@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %} Fancy Flavours {% endblock title %}
+
+{% block extra_head %} 
+ <link rel="stylesheet" href="/static/flavours.css"/>
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <h1 class="section-title">Fancy Flavours</h1>
+
+    <div class="flavour">
+        <img src="/static/image/Lavender Honey.jpg" alt="Lavender Honey">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Lavender Honey</h2>
+            <p class="flavour-description"> Floral lavender combined with a sweet honey finish for a delicate, aromatic treat. </p>
+            <div class="user-reviews">
+                <div class="review">"Lavender Honey is so unique and delightful. The floral notes are perfectly balanced."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Rose Petal" alt="Rose Petal">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Rose Petal</h2>
+            <p class="flavour-description">Delicate rose flavour that is fragrant and light, perfect for a sophisticated palate.</p>
+            <div class="user-reviews">
+                <div class="review"> "Rose Petal is like eating a bouquet of roses. It's light and fragrant."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Spicy Chocolate.jpg" alt="Spicy Chocolate">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Spicy Chocolate</h2>
+            <p class="flavour-description">Dark chocolate ice cream with a hint of chili for a spicy twist on a classic.</p>
+            <div class="user-reviews">
+                <div class="review">"Spicy Chocolate has the perfect amount of kick. The chili complements the chocolate so well."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flavour">
+        <img src="/static/image/Saffron Almond.jpg" alt="Saffron Almond">
+        <div class="flavour-details">
+            <h2 class="flavour-title">Saffron Almond</h2>
+            <p class="flavour-description">Exotic saffron-infused ice cream enriched with almond pieces for a luxurious experience.</p>
+            <div class="user-reviews">
+                <div class="review">"Saffron Almond is luxurious and exotic. The saffron flavour is just right."</div>
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock body %}
