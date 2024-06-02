@@ -4,7 +4,7 @@ from base.models import Contact
 from django.contrib import messages
 
 def home(request):
-    return render(request , "home.html")
+    return render(request , "index.html")
     # return HttpResponse("Hii")
 
 def Our_story(request):
